@@ -195,6 +195,24 @@ Key entities and their relationships:
 * **Payment Processing**
   Facilitates secure payment transactions linked to bookings. It tracks payment status to ensure both hosts and guests have a reliable financial experience.
 
+## 🔒 API Security
+
+To protect the Airbnb Clone application and its users, the following key security measures will be implemented:
+
+* **Authentication**
+  Verifies user identities using secure methods (e.g., JWT tokens). It ensures only legitimate users can access their accounts and sensitive data.
+
+* **Authorization**
+  Controls user permissions to restrict access to resources based on roles (e.g., guest vs. host). This prevents unauthorized actions like modifying others’ bookings or properties.
+
+* **Rate Limiting**
+  Limits the number of API requests from a user within a timeframe to prevent abuse or denial-of-service attacks, ensuring system stability.
+
+* **Data Encryption**
+  Sensitive data such as passwords and payment information are encrypted both in transit (using HTTPS) and at rest, protecting user privacy and financial data.
+
+Security is crucial for protecting user data, ensuring transaction integrity, and maintaining overall trust in the platform.
+
 ---
 
 > This project is more than just a clone—it's an opportunity to build, collaborate, and deploy software at a professional level, laying the foundation for a career in full-stack development.
