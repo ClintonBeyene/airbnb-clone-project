@@ -178,6 +178,23 @@ Key entities and their relationships:
 * Properties ↔ Reviews (one-to-many)
 * Bookings ↔ Payments (one-to-one)
 
+## 🚩 Feature Breakdown
+
+* **User Management**
+  Handles user registration, authentication, and profile management. This feature ensures secure access and personalized experiences for both guests and hosts.
+
+* **Property Management**
+  Enables hosts to create, update, and delete property listings. It supports detailed descriptions, pricing, and location data to attract potential guests.
+
+* **Booking System**
+  Allows guests to search for properties, make reservations, and view booking history. It manages availability and ensures smooth transaction flow between users.
+
+* **Review System**
+  Provides guests the ability to leave ratings and comments on properties they have stayed at. This feedback builds trust and helps maintain quality.
+
+* **Payment Processing**
+  Facilitates secure payment transactions linked to bookings. It tracks payment status to ensure both hosts and guests have a reliable financial experience.
+
 ---
 
 > This project is more than just a clone—it's an opportunity to build, collaborate, and deploy software at a professional level, laying the foundation for a career in full-stack development.
