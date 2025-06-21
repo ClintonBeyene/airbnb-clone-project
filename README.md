@@ -149,4 +149,35 @@ The following technologies are used to build and manage the Airbnb Clone project
 
 * **Purpose**: A lightweight markup language used for creating project documentation (e.g., `README.md`). It allows developers to write formatted text for instructions, descriptions, and technical reference.
 
+## 🗄️ Database Design
+
+Key entities and their relationships:
+
+* **Users**: `id`, `username`, `email`, `password`, `date_joined`
+  *Can own multiple properties and make multiple bookings.*
+
+* **Properties**: `id`, `owner_id`, `title`, `location`, `price_per_night`
+  *Belongs to one user; can have many bookings and reviews.*
+
+* **Bookings**: `id`, `property_id`, `guest_id`, `start_date`, `end_date`, `total_price`
+  *Belongs to one property and one user.*
+
+* **Reviews**: `id`, `property_id`, `author_id`, `rating`, `comment`
+  *Written by users for properties.*
+
+* **Payments**: `id`, `booking_id`, `amount`, `payment_date`, `status`
+  *Linked to one booking.*
+
+---
+
+### Relationships summary:
+
+* Users ↔ Properties (one-to-many)
+* Properties ↔ Bookings (one-to-many)
+* Users ↔ Bookings (one-to-many)
+* Properties ↔ Reviews (one-to-many)
+* Bookings ↔ Payments (one-to-one)
+
+---
+
 > This project is more than just a clone—it's an opportunity to build, collaborate, and deploy software at a professional level, laying the foundation for a career in full-stack development.
