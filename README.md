@@ -113,10 +113,6 @@ To ensure a structured and collaborative development process, each team member a
   * Facilitate team meetings and code reviews.
   * Ensure deliverables align with project goals and timelines.
 
-Here’s the content you can add to your `README.md` under a new section titled **Technology Stack**, followed by the steps to commit and push the changes to GitHub:
-
----
-
 ## 🧱 Technology Stack
 
 The following technologies are used to build and manage the Airbnb Clone project. Each component plays a crucial role in developing a scalable, secure, and collaborative web application:
@@ -212,6 +208,12 @@ To protect the Airbnb Clone application and its users, the following key securit
   Sensitive data such as passwords and payment information are encrypted both in transit (using HTTPS) and at rest, protecting user privacy and financial data.
 
 Security is crucial for protecting user data, ensuring transaction integrity, and maintaining overall trust in the platform.
+
+## ⚙️ CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of testing, building, and deploying the application. This automation helps catch bugs early, ensures consistent code quality, and accelerates delivery by reducing manual steps.
+
+For this project, tools like **GitHub Actions** will be used to automate testing and deployment workflows, while **Docker** will help package the application into consistent, portable containers for reliable deployment across environments.
 
 ---
 
