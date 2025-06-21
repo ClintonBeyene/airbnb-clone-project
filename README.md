@@ -113,6 +113,40 @@ To ensure a structured and collaborative development process, each team member a
   * Facilitate team meetings and code reviews.
   * Ensure deliverables align with project goals and timelines.
 
+Here’s the content you can add to your `README.md` under a new section titled **Technology Stack**, followed by the steps to commit and push the changes to GitHub:
+
 ---
+
+## 🧱 Technology Stack
+
+The following technologies are used to build and manage the Airbnb Clone project. Each component plays a crucial role in developing a scalable, secure, and collaborative web application:
+
+### 🔹 Django
+
+* **Purpose**: A high-level Python web framework used to build robust backend systems and RESTful/GraphQL APIs efficiently. It provides built-in support for authentication, admin panels, and ORM (Object-Relational Mapping) for database interactions.
+
+### 🔹 MySQL
+
+* **Purpose**: A relational database management system (RDBMS) that stores structured data, such as user profiles, bookings, listings, and reviews. It ensures reliable data storage, query optimization, and relationship management.
+
+### 🔹 GraphQL
+
+* **Purpose**: A flexible and efficient query language for APIs, allowing clients to request exactly the data they need. It replaces traditional REST APIs with a single endpoint and improves frontend-backend communication.
+
+### 🔹 Docker
+
+* **Purpose**: A containerization platform used to package the application and its dependencies into isolated environments. It ensures consistent deployment across different systems and simplifies setup and scaling.
+
+### 🔹 GitHub & Git
+
+* **Purpose**: Version control tools used to manage source code, track changes, and enable collaboration between team members. GitHub also hosts the repository and facilitates issue tracking, branching, and pull requests.
+
+### 🔹 GitHub Actions
+
+* **Purpose**: A CI/CD automation tool that runs tests, performs linting, and deploys the application automatically when code is pushed. It helps streamline development workflows and catch issues early.
+
+### 🔹 Markdown
+
+* **Purpose**: A lightweight markup language used for creating project documentation (e.g., `README.md`). It allows developers to write formatted text for instructions, descriptions, and technical reference.
 
 > This project is more than just a clone—it's an opportunity to build, collaborate, and deploy software at a professional level, laying the foundation for a career in full-stack development.
