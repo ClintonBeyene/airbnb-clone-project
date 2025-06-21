@@ -55,6 +55,64 @@ To successfully contribute to this project, participants should have:
 * **API Security**: Implementation of secure endpoints and data protection strategies.
 * **CI/CD Integration**: Streamlined automated pipelines for testing, deployment, and delivery.
 
+## 👥 Team Roles
+
+To ensure a structured and collaborative development process, each team member assumes a specific role within the project. Below is a breakdown of the primary roles and their responsibilities:
+
+### 🔧 Backend Developer
+
+* **Responsibility**: Designs and implements the core business logic, APIs, and server-side components.
+* **Tasks**:
+
+  * Develop RESTful/GraphQL APIs using Django.
+  * Ensure data validation and integration with the database.
+  * Implement authentication, authorization, and error handling.
+
+### 🗃️ Database Administrator (DBA)
+
+* **Responsibility**: Designs and manages the database structure, ensuring data integrity, performance, and security.
+* **Tasks**:
+
+  * Define schema and relationships in MySQL.
+  * Optimize queries and manage migrations.
+  * Handle backup and recovery processes.
+
+### 🧪 QA Engineer / Tester
+
+* **Responsibility**: Verifies the quality and reliability of the application through testing.
+* **Tasks**:
+
+  * Write and execute unit, integration, and end-to-end tests.
+  * Document bugs and coordinate with developers to resolve issues.
+  * Validate CI pipeline results and test coverage.
+
+### 🚀 DevOps Engineer
+
+* **Responsibility**: Builds and maintains the CI/CD pipeline and ensures smooth deployment processes.
+* **Tasks**:
+
+  * Configure GitHub Actions for automated testing and deployment.
+  * Manage Docker containers and environment variables.
+  * Monitor application performance post-deployment.
+
+### 📝 Technical Writer / Documentarian
+
+* **Responsibility**: Creates clear and comprehensive documentation for both developers and users.
+* **Tasks**:
+
+  * Maintain `README.md`, API documentation, and setup guides.
+  * Document architecture, workflows, and team contributions.
+  * Ensure consistency in naming and technical language.
+
+### 👨‍💼 Project Manager / Team Lead
+
+* **Responsibility**: Oversees project progress, task allocation, and team coordination.
+* **Tasks**:
+
+  * Plan sprints and manage GitHub issues/boards.
+  * Facilitate team meetings and code reviews.
+  * Ensure deliverables align with project goals and timelines.
+
 ---
 
 > This project is more than just a clone—it's an opportunity to build, collaborate, and deploy software at a professional level, laying the foundation for a career in full-stack development.
